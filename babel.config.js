@@ -2,9 +2,6 @@ module.exports = function(api) {
   api.cache(true);
   return {
     presets: ['babel-preset-expo'],
-    plugins: ["tailwindcss-react-native/babel","nativewind/babel"],
-
-    
-   
+    plugins: ["nativewind/babel"],   
   };
 };

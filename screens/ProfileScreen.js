@@ -68,15 +68,7 @@ const ProfileScreen = () => {
 
   return (
     <ScrollView style={{ flex: 1 }}>
-      {/* Header */}
-
-      {/* Profile Picture */}
-      {/* <View style={{ alignItems: 'center', marginTop: 20 }}>
-        <Image source={ profile.profilePicture } style={{ width: 120, height: 120, borderRadius: 60 }} />
-        <TouchableOpacity style={{ position: 'absolute', bottom: 5, right: 50 }}>
-          <FontAwesome name="edit" color='silver' size={26} />
-        </TouchableOpacity>
-      </View> */}
+    
       <View style={styles.container}>
       <View style={styles.pentagon}>
         <Image source={profile.profilePicture} style={styles.profilePicture} />

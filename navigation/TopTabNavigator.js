@@ -1,12 +1,7 @@
 import React from "react";
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
 import { Ionicons } from "react-native-vector-icons";
-
 import HomeScreen from "../screens/HomeScreen";
-import ProfileScreen from "../screens/ProfileScreen";
-import LoginScreen from "../screens/LoginScreen";
-import SignUpScreen from "../screens/SignUpScreen";
-import { View, StatusBar } from "react-native";
 import ChatScreen from "../screens/ChatScreen ";
 import SearchArtists from "../screens/SearchArtists";
 import ArtistsScreen from "../screens/ArtistsScreen";
